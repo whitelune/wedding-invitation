@@ -1,0 +1,163 @@
+
+/* @media () { */
+.App {
+  display: block;
+  text-align: center;
+  margin: auto;
+  word-break: keep-all;
+  max-width: 758px;
+}
+/* } */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* HS집토끼체 */
+@font-face {
+  font-family: 'HSJiptokki-Black';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* 라인시드체 */
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 디자인하우스체 */
+@font-face {
+  font-family: 'designhouseOTFLight00';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 리디바탕체 */
+@font-face {
+  font-family: 'RIDIBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App-main-title {
+  font-family: 'HSJiptokki-Black';
+  font-size: 8vmin;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.App-main-sub-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.App-main-sub-title {
+  /* font-family: 'designhouseOTFLight00'; */
+  font-family: 'RIDIBatang';
+  font-size: 6vmin;
+  background: linear-gradient(to top, #c7c1b9 30%, transparent 30%);
+  /* background: linear-gradient(to top, #FFE400 35%, transparent 35%); */
+}
+
+.App-main-text-accent {
+  background: linear-gradient(to top, #AFAF1D 30%, transparent 30%);
+}
+
+.App-main-sub-content {
+  /* font-family: 'LINESeedKR-Bd'; */
+  font-family: 'RIDIBatang';
+  font-size: 4vmin;
+  white-space: pre-wrap;
+}
+
+.App-main-buttom {
+  /* font-family: 'LINESeedKR-Bd'; */
+  font-family: 'RIDIBatang';
+  font-size: 2vmin;
+}
+
+.App-comment-area {
+  width: 90%;
+  min-height: 1000px;
+}
+
+
+.App-empty-area-20 {
+  height: 20px;
+}
+
+.App-empty-area-50 {
+  height: 50px;
+}
+
+
+.App-location-img {
+  height : 60vmin;
+  width : 80vmin;
+  background-image : url('./img/location_mini.jpg');  
+  background-size : cover;
+  background-position : right;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.App-gallary-content {
+  width : 100vh;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  /* background-color: #282c34; */
+  background-color: #F4EDE3;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+  color: black;
+}
+  
+
+
+.App-link {
+  /* color: #61dafb; */
+  color: #0096c6;
+  font-family: 'LINESeedKR-Bd';
+  font-size: 4vmin;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-main-img-1 {
+  width: 100%;
+
+
+}

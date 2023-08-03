@@ -1,0 +1,81 @@
+
+html, header {
+  /* height: 50vh; */
+}
+
+.Main-img {
+  width: 100%;
+  padding-bottom: 140%;
+  object-fit: fill;
+  background-image : url('../img/main-cail.jpg');  
+  background-size : cover;
+  background-position : center;
+}
+
+.Main-home-btn {
+    position: absolute;
+    height : 5rem;
+    width : 5rem;
+    top: 3rem;
+    left: 3rem;
+    background-image : url('../img/icon/home.png');  
+    background-size : cover;
+  }
+
+  .Main-menu-btn {
+    position: fixed;
+    height : var(--icon-size);
+    width : var(--icon-size);
+    top: 2rem;
+    right: 2rem;
+    margin-right: calc((100vw - 758px)/2);
+    background-image : url('../img/icon/menu.png');  
+    background-size : cover;
+  }
+
+  .Main-fixed-top-btn {
+    position: fixed;
+    height : var(--icon-size);
+    width : var(--icon-size);
+    bottom: 0;
+    right: 2rem;
+    margin-right: calc((100vw - 758px)/2);
+    margin-bottom: 20px;
+    opacity: 0.5;
+    background-image : url('../img/icon/up.png');  
+    background-size : cover;
+    background-position : right;
+    align-items: right;
+    justify-content:right;
+  }
+
+  .Main-absolute-top-btn {
+    position: absolute;
+    height : var(--icon-size);
+    width : var(--icon-size);
+    margin-right: calc((100vw - 758px)/2);
+    bottom: 0;
+    right: 2rem;
+    margin-right: calc((100vw - 758px)/2);
+    margin-bottom: 20px;
+    opacity: 0.5;
+    background-image : url('../img/icon/up.png');  
+    background-size : cover;
+    background-position : right;
+    align-items: right;
+    justify-content:right;
+  }
+
+  .Main-position-relative {
+    position: relative;
+  } 
+
+  .Main-background-color {
+    background-color: #FFF7F2;
+
+  }
+
+  .Main-text-color {
+    color: #261A1A;
+  }
+  
