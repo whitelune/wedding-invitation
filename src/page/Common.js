@@ -16,6 +16,7 @@ function Common({title, description, json}) {
     const onclickHandlerClose = (e) => {
         e.target.parentNode.style.display = 'none';        
         e.target.parentNode.previousSibling.style.display = 'inline-block';        
+        e.target.parentNode.parentNode.parentNode.scrollIntoView();;        
         // e.target.parentNode.style.visibility = 'hidden';        
         // e.target.parentNode.style.height = '0vh';        
         // e.target.parentNode.previousSibling.style.display = 'inline-block';        
